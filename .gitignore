@@ -1,0 +1,18 @@
+# Node modules
+
+/node_modules
+/yarn-error.log
+/package-lock.json
+
+# Tern
+
+/.tern-port
+
+# Some books for testing
+
+/books
+
+# Coverage
+
+/.nyc_output
+
