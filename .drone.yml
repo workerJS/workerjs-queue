@@ -5,6 +5,7 @@ steps:
 - name: compatibility-test
   image: node
   commands:
-  - npm install
-  - npm test
+  - npm install -g yarn
+  - yarn
+  - yarn test
 
