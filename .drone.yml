@@ -1,0 +1,10 @@
+kind: pipeline
+name: default
+
+steps:
+- name: compatibility-test
+  image: node
+  commands:
+  - npm install
+  - npm test
+
