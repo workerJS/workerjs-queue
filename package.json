@@ -7,7 +7,10 @@
   "author": "nemanjan00 <nemanjan00@gmail.com>",
   "license": "MIT",
   "private": false,
-  "dependencies": {},
+  "dependencies": {
+    "workerjs-rabbitmq": "^0.0.4",
+    "workerjs-redis": "^2.0.7"
+  },
   "scripts": {
     "lint": "./node_modules/.bin/eslint . --fix",
     "test": "./node_modules/.bin/mocha --reporter spec --timeout 60000 tests/index.js",
